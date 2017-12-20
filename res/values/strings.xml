@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello android-quickstart!</string>
+    <string name="app_name">WiFi采集</string>
+    <string name="welcome">欢迎进入\n\nWiFi指纹采集系统</string>
+    <string name="about">1.如何进行数据采集？\n
+        \t\t点击开始采集WiFi按钮，该系统会每隔5s定时进行RSS指纹采集,点击停止采集WiFi按钮，该系统会停止采集,最终将采集的所有数据保存至SQLite数据库。\n
+        2.如何进行数据查看？\n
+        \t\t建议手机首先安装RE文件管理器工具，然后进行查看，其中采集的数据位于data/data/com.yourcompany.android/databases/WiFi/rssi。
+    </string>
+</resources>
